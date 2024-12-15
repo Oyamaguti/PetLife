@@ -69,6 +69,18 @@ h1, h2 {
     width: 100%;
     z-index: -10;
 }
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#clinica li {
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
 /* 
 margin - espaçamento externo do header
 padding - espaçamento interno do header, borda pode ser sólida ou dashed (traçado) 
